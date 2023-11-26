@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    background-color: #1F2937;
+}
+
+nav .header.logo {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+nav .header {
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+}
