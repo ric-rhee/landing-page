@@ -55,6 +55,10 @@ body {
     font-weight: bolder;
 }
 
+.hero .text {
+    flex-basis: 30%;
+}
+
 .hero .subtext {
     color: #E5E7EB;
     font-size: 18px;
@@ -62,6 +66,17 @@ body {
 
 .hero img {
     width: 600px;
+}
+
+.hero button {
+    border: none;
+    border-radius: 3px;
+    background: #3882F6;
+    color: #F9FAF8;
+    width: 85px;
+    height: 25px;
+    align-self: center;
+    margin-top: 10px;
 }
 
 .content-container {
@@ -74,18 +89,20 @@ body {
     display: flex;
     flex-direction: column;
     padding: 5%;
+    align-items: center;
 }
 
 .content .header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 5%;
 }
 
 .content img {
     width: 150px;
     border: 5px solid #3882F6;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .picture-with-subtext {
@@ -93,14 +110,19 @@ body {
     gap: 50px;
 }
 
+.picture-with-subtext p {
+    text-align: center;
+    color: #1F2937;
+}
+
 .quote-container {
     display: flex;
+    background-color: #E5E7EB;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
     padding: 3%;
 }
 
@@ -113,10 +135,17 @@ body {
 
 .signature {
     font-weight: bold;
+    align-self: flex-end;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
 }
 
 .signup {
     display: flex;
+    justify-content: center;
     background-color: #3882F6;
     border-radius: 5px;
     margin: 30px;
@@ -124,6 +153,8 @@ body {
     padding-right: 7%;
     padding-top: 3%;
     padding-bottom: 3%;
+    width: 40%;
+    flex-grow: 0;
 }
 
 .signup .text {
